@@ -9,7 +9,8 @@
     "build:dev": "rollup --config .config/rollup-dev.config.js",
     "dev": "run-p start:dev build:dev -w",
     "start": "sirv public",
-    "start:dev": "sirv public --dev"
+    "start:dev": "sirv public --dev",
+    "prepublishOnly": "yarn build"
   },
   "peerDependencies": {
     "@popperjs/core": "^2.3.3",
