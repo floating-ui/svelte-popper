@@ -1,5 +1,5 @@
 <script>
-  import { onDestroy } from "svelte";
+  import { onDestroy, tick } from "svelte";
   import { writable } from "svelte/store";
   import { createPopper } from "@popperjs/core";
 
@@ -23,11 +23,12 @@
     fn: ({ state }) => store.set(state)
   };
 
-  $: {
+  $: (async () => {
     if (
       previousPopperElement != popperElement ||
-      previousReferenceElement != previousReferenceElement
+      previousReferenceElement != referenceElement
     ) {
+      await tick();
       popperInstance && popperInstance.destroy();
 
       if (referenceElement != null && popperElement != null) {
@@ -43,7 +44,7 @@
         previousReferenceElement = referenceElement;
       }
     }
-  }
+  })();
 
   $: {
     if (popperInstance != null) {
