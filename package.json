@@ -1,7 +1,7 @@
 {
   "name": "@popperjs/svelte",
   "description": "Svelte wrapper for Popper - the positioning library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/svelte-popper.js",
   "svelte": "src/Popper.svelte",
   "scripts": {
