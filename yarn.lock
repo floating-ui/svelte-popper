@@ -28,11 +28,6 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
   integrity sha512-oZLYFEAzUKyi3SKnXvj32ZCEGH6RDnao7COuCVhDydMS9NrCSVXhM79VaKyP5+Zc33m0QXEd2DN3UkU7OsHcfw==
 
-"@popperjs/core@2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.3.3.tgz#8731722aeb7330e8fd9eb5d424be6b98dea7d6da"
-  integrity sha512-yEvVC8RfhRPkD9TUn7cFcLcgoJePgZRAOR7T21rcRY5I8tpuhzeWfGa7We7tB14fe9R7wENdqUABcMdwD4SQLw==
-
 "@rollup/plugin-replace@^2.3.2":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-replace/-/plugin-replace-2.3.2.tgz#da4e0939047f793c2eb5eedfd6c271232d0a033f"
@@ -450,9 +445,9 @@ path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^3.0.0:
   version "3.0.0"
@@ -712,11 +707,6 @@ supports-color@^6.1.0:
   integrity sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
   dependencies:
     has-flag "^3.0.0"
-
-svelte@^3.18.1:
-  version "3.20.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.20.1.tgz#8417fcd883a2f534b642a0737368272e651cf3ac"
-  integrity sha512-m/dw52BZf+p6KYnyKLErIcGalu4pwJrQbUM7VZriRw6ZlJj1qMAZsLcIWzEB3I0hhdJwkKb7LrrvUIeqmbO92Q==
 
 terser@^4.6.2:
   version "4.6.11"
